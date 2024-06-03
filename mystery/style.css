@@ -1,18 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+25+Charted&display=swap');
+:root{
+    --cor-de-fundo: #fa0303; 
+    --cor-da-letra: #e2f106;
+    --fundo-senha: #c72b2b; 
+    --fundo-texto: #c72b2b; 
+    --borda: #fa0303;
+    --fonte:"Aldrich", sans-serif;
+    --fonte2: "Jaro", sans-serif;
+}
 
 /*corpo*/
 body{
-    background-color: #fa0303; 
-    color: #e2f106;
-    font-family:  "Aldrich", sans-serif;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-letra);
+    font-family: var(--fonte);
 }
 
 .conteudo{
     margin: 10px;
+    text-align: center;
 }
 
 /*imagem do cadeado*/
 .imagem{
-    width: 5%;
-    margin: 1em 0 0 4em;
+    width: 7%;
+    margin: 1em 2em 0 2em; /*sentido horário*/
+    justify-content: center;
+}
+
+/*O MELHOR GERADOR DE SENHAS!*/
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    font-family: var(--fonte2);
+}
+
+/*Gere instantaneamente uma senha totalmente aleatória e estupidamete segura!*/
+.titulo-secundario{
+    text-align: center;
+    width: 100%;
+    margin: 0 0 0 3em;
+    font-size: 28px;
+}
+
+/*primeira div*/
+.conteudo-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 10px;
 }
