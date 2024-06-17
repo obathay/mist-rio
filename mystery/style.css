@@ -19,7 +19,7 @@ body{
 
 /* primeira classe, tudo */
 .conteudo{
-    margin: 10px;
+    margin: 30px; /*margem dos lados*/
 }
 
 /*imagem do cadeado*/
@@ -62,9 +62,7 @@ body{
     margin-top: 50px;
     background: var(--fundo-senha);
     align-items: center;
-    padding: 20px;/*tamanho da margin do teto ao chão*/
-    border-bottom: 2px solid var(--borda);
-    border-top: 2px solid var(--borda);
+    padding: 12px;/*tamanho da margin do teto ao chão*/
     font-size: 18px;
 }
 
@@ -72,5 +70,10 @@ body{
     background-color: var(--fundo-senha);
     border-color: #e2f106;
     color: var(--cor-da-letra);
-    width: 50%;
+    width: 80%;
+    font-size: 20px;
+}
+
+#campo-senha:focus{
+ outline: none;
 }
