@@ -4,7 +4,7 @@
     --cor-de-fundo: #fa0303; 
     --cor-da-letra: #e2f106;
     --fundo-senha: #c70000; 
-    --fundo-texto: #c72b2b; 
+    --fundo-texto: #c70000; 
     --borda: #e2f106;
     --fonte:"Aldrich", sans-serif;
     --fonte2: "Jaro", sans-serif;
@@ -25,14 +25,19 @@ body{
 /*imagem do cadeado*/
 .imagem{
     width: 7%;
-    margin: 1em 2em 0 2em; /*sentido horário*/
+    margin: 0 2em 0 2em; /*sentido horário*/
     justify-content: center; /*alinhar os elementos*/
+}
+
+/*imagem do super mário*/
+.supermário{
+    width:3%;
 }
 
 /*O MELHOR GERADOR DE SENHAS!*/
 .titulo-principal{
     text-align: center; /*alinhamento do texto*/
-    width: 100%;
+    width: 95%;
     font-size: 35px;
     font-family: var(--fonte2);
 }
@@ -40,9 +45,9 @@ body{
 /*Gere instantaneamente uma senha totalmente aleatória e estupidamete segura!*/
 .titulo-secundario{
     text-align: center; /*alinhamento do texto*/
-    width: 100%;
+    width: 98%;
     margin: 0 0 0 3px;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 /*primeira div*/
@@ -62,7 +67,7 @@ body{
     margin-top: 50px;
     background: var(--fundo-senha);
     align-items: center;
-    padding: 12px;/*tamanho da margin do teto ao chão*/
+    padding: 10px;/*tamanho da margin dos lados*/
     font-size: 18px;
 }
 
@@ -76,4 +81,17 @@ body{
 
 #campo-senha:focus{
  outline: none;
+}
+
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte);
+    font-size: 21px;
 }
