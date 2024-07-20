@@ -4,7 +4,7 @@
     --cor-de-fundo: #fa0303; 
     --cor-da-letra: #e2f106;
     --fundo-senha: #c70000; 
-    --fundo-texto: #c70000; 
+    --fundo-texto: #c00303; 
     --borda: #e2f106;
     --fonte:"Aldrich", sans-serif;
     --fonte2: "Jaro", sans-serif;
@@ -24,14 +24,9 @@ body{
 
 /*imagem do cadeado*/
 .imagem{
-    width: 7%;
+    width: 9%;
     margin: 0 2em 0 2em; /*sentido horário*/
     justify-content: center; /*alinhar os elementos*/
-}
-
-/*imagem do super mário*/
-.supermário{
-    width:3%;
 }
 
 /*O MELHOR GERADOR DE SENHAS!*/
@@ -59,12 +54,10 @@ body{
     justify-content: center; /*alinhar os elementos, esquerda e direita*/
     align-items: center; /*alinhar os elementos, teto e chão*/
     text-align: center;
-    margin-top: 80px;
 } 
 
 /*parte onde coloca senha*/
 .conteudo-senha{
-    margin-top: 50px;
     background: var(--fundo-senha);
     align-items: center;
     padding: 10px;/*tamanho da margin dos lados*/
