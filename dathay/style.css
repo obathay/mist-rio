@@ -10,6 +10,8 @@
     --fonte2: "Jaro", sans-serif;
 }
 
+/* pra texto pequeno usa p*/
+
 /*corpo*/
 body{
     background-color: var(--cor-de-fundo);
@@ -37,11 +39,11 @@ body{
     font-family: var(--fonte2);
 }
 
-/*Gere instantaneamente uma senha totalmente aleatória e estupidamete segura!*/
+/*Gere instantaneamente uma senha segura com os irmãos Bros!*/
 .titulo-secundario{
     text-align: center; /*alinhamento do texto*/
     width: 98%;
-    margin: 0 0 0 3px;
+    margin: 0 0 7px 0;
     font-size: 25px;
 }
 /*classe do supermário*/
@@ -70,7 +72,7 @@ body{
 .conteudo-senha{
     background: var(--fundo-senha);
     align-items: center;
-    padding: 10px;/*tamanho da margin dos lados*/
+    padding: 15px;/*tamanho da margin dos lados*/
     font-size: 18px;
 }
 
@@ -78,22 +80,23 @@ body{
     background-color: var(--fundo-senha);
     border-color: #e2f106;
     color: var(--cor-da-letra);
-    width: 80%;
-    font-size: 20px;
+    width: 86%;
+    font-size: 15px;
 }
 
 #campo-senha:focus{
  outline: none;
 }
 
-
+/*tudo q começa com parametro ta dentro*/
 .parametro{
     background-color: var(--fundo-texto);
     border: 2px solid var(--borda);
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
 }
 
+/*Personalize sua senha! 🍄*/
 .parametro-titulo{
     font-family: var(--fonte);
     font-size: 21px;
@@ -105,15 +108,17 @@ body{
     border: 2px solid var(--borda);
 }
 
+/*retangulo inteiro com as 3 áreas*/
 .parametro-coluna-senha{
     display: flex; /*pode mexer nas coisas*/
     flex-direction: row; /*alinhado em linha*/
     justify-content: center;
 }
 
+/*a mesma classe pras 3 áreas*/
 .parametro-senha-titulo{
-   font-size: 17px;
-   width: 60%;
-   margin: 4px 4px 4px 4px;
+   font-size: 16px;
+   width: 90%;
+   margin: 7px 7px 7px 7px;
    padding: 5px 6px 80px 5px;
 }
