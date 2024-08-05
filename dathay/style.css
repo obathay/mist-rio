@@ -122,3 +122,31 @@ body{
    margin: 7px 7px 7px 7px;
    padding: 5px 6px 80px 5px;
 }
+
+/*todos os botoes*/
+.parametro-senha-botoes{
+display: flex;
+justify-content: center;
+}
+
+/*quantidade de caracteres*/
+.parametro-senha-texto{
+padding: 20px;
+border-top: 3px solid var(--borda); /*borda de cima*/
+border-bottom: 3px solid var(--borda); /*borda de baixo*/
+border-color: var(--borda);
+margin: 0;
+}
+
+/*botão - e + */
+.parametro-senha-botao{
+background-color: (--fundo-texto);
+width: 4px;
+border-top: 3px solid var(--borda);
+border-bottom: 3px solid var(--borda);
+border-color: var(--borda);
+padding: 20px;
+font-size: 10px;
+cursor: pointer;
+}
+
