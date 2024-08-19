@@ -3,9 +3,10 @@
 :root{
     --cor-de-fundo: #fa0303; 
     --cor-da-letra: #e2f106;
-    --fundo-senha: #c70000; 
+    --fundo-senha:  #940000;
     --fundo-texto: #c00303; 
-    --borda: #e2f106;
+    --bordaamarela: #e2f106;
+    --bordaverde: #369908;
     --fonte:"Aldrich", sans-serif;
     --fonte2: "Jaro", sans-serif;
 }
@@ -56,6 +57,10 @@ body{
     width: 12%;
 }
 
+/*classe do toad*/
+.toad{
+    width: 3%;
+}
 
 /*primeira div*/
 .conteudo-titulo{
@@ -78,10 +83,10 @@ body{
 
 #campo-senha{
     background-color: var(--fundo-senha);
-    border-color: #e2f106;
+    border:var(--fundo-senha);
     color: var(--cor-da-letra);
     width: 86%;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #campo-senha:focus{
@@ -90,8 +95,8 @@ body{
 
 /*tudo q começa com parametro ta dentro*/
 .parametro{
-    background-color: var(--fundo-texto);
-    border: 2px solid var(--borda);
+    background-color: var(--fundo-senha);
+    border: 4px solid var(--bordaamarela);
     margin-top: 20px;
     padding: 10px;
 }
@@ -103,9 +108,9 @@ body{
 }
 
 .parametro-senha{
-    width: 20%;
+    width: 27%;
     margin: 0 auto;
-    border: 2px solid var(--borda);
+    border: 2px solid var(--bordaamarela);
 }
 
 /*retangulo inteiro com as 3 áreas*/
@@ -115,7 +120,7 @@ body{
     justify-content: center;
 }
 
-/*a mesma classe pras 3 áreas*/
+/*a mesma classe pros 3 títulos*/
 .parametro-senha-titulo{
    font-size: 16px;
    width: 90%;
@@ -131,22 +136,21 @@ justify-content: center;
 
 /*quantidade de caracteres*/
 .parametro-senha-texto{
-padding: 12px;
-border-top: 3px solid var(--borda); /*borda de cima*/
-border-bottom: 3px solid var(--borda); /*borda de baixo*/
-border-color: var(--borda);
+padding: 7px;
+border-top: 2px solid var(--bordaamarela); /*borda de cima*/
+border-bottom: 2px solid var(--bordaamarela); /*borda de baixo*/
+border-color: var(--bordaamarela);
 margin: 0;
 }
 
 /*botão - e + */
 .parametro-senha-botao{
-background-color: (--fundo-texto);
-width: 4px;
-border-top: 3px solid var(--borda);
-border-bottom: 3px solid var(--borda);
-border-color: var(--borda);
-padding: 12px;
-font-size: 10px;
+background-color: var(--bordaamarela);
+border-top: 2px solid var(--bordaamarela);
+border-bottom: 2px solid var(--bordaamarela);
+border-color: var(--bordaamarela);
+padding: 7px;
+font-size: 15px;
 cursor: pointer;
 }
 
@@ -156,6 +160,8 @@ label {
 
 .checkbox {
     cursor: pointer;
-    height: 16px;
-    width: 11%;
+    height: 15px;
+    width: 9%;
 }
+
+/*BOM DIA PROFESSORRRR, NÃO FAÇO A IDEIA SE o "personagens" VAI DAR CERTO, MAS VAMO Q VAMO :)*/
