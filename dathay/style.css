@@ -164,4 +164,18 @@ label {
     width: 9%;
 }
 
+.barra{
+    height: 24px; /*altura*/
+    background-color: #7e0000;
+    width: 90%; /*largura*/
+}
+
+.fraca{
+    height: 24px; /*altura*/
+    width: 30%;
+    background-color: #e2f106;
+    position: relative;
+    bottom: 24px;
+}
+
 /*BOM DIA PROFESSORRRR, NÃO FAÇO A IDEIA SE o "personagens" VAI DAR CERTO, MAS VAMO Q VAMO :)*/
