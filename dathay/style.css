@@ -168,14 +168,41 @@ label {
     height: 24px; /*altura*/
     background-color: #7e0000;
     width: 90%; /*largura*/
+    margin-left: 16px;
+}
+
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
 }
 
 .fraca{
     height: 24px; /*altura*/
     width: 30%;
+    background-color: #fa0303;
+    position: relative;
+    bottom: 24px;
+    margin-left: 16px;
+}
+
+.media{
+    height: 24px; /*altura*/
+    width: 60%;
     background-color: #e2f106;
     position: relative;
     bottom: 24px;
+    margin-left: 16px;
 }
 
-/*BOM DIA PROFESSORRRR, NÃO FAÇO A IDEIA SE o "personagens" VAI DAR CERTO, MAS VAMO Q VAMO :)*/
+.forte{
+    height: 24px; /*altura*/
+    width: 90%;
+    background-color:  #369908;
+    position: relative;
+    bottom: 24px;
+    margin-left: 16px;
+}
+
+
+
+
