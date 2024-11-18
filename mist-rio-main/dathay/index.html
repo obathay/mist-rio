@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha do irmãos Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="conteudo">
+        <div class="conteudo-titulo"> 
+            <img class="imagem" src="cadeado.png" alt="cadeado">
+              <h2 class="titulo-principal">O MELHOR GERADOR DE SENHAS!</h2> 
+              <h3 class="titulo-secundario">Gere instantaneamente uma senha segura com os irmãos Bros!</h3>
+              <div class="imagens">
+                  <img class="supermario" src="supermário.png">
+                  <img class="luigi" src="luigi.png">
+              </div>
+            </div>
+
+  <div class="conteudo-senha">
+    <label for="senha"> A senha gerada é:</label>
+    <input name="senha" type="text" id="campo-senha">
+  </div>
+
+  <div class="parametro">
+    <h3 class="parametro-titulo"> <img class="toad" src="toad.png"> Personalize sua senha! </h3>
+    <div class="parametro-coluna-senha">
+      <div class="parametro-senha">
+       <h4 class="parametro-senha-titulo">• Número de caracteres:</h4>
+       <div class="parametro-senha-botoes">
+         <button class="parametro-senha-botao"> - </button>
+         <p class="parametro-senha-texto"> 15 </p> 
+         <button class="parametro-senha-botao"> + </button>
+       </div>
+      </div>
+    <div class="parametro-senha">
+      <h4 class="parametro-senha-titulo">• Força da senha:</h4>
+      <div class="parametro-barra">
+              <div class="barra"></div>
+              <div class="forte"></div>
+      </div>
+      <div class="parametro-senha-textos">
+       <p> Fraca </p>
+       <p> Média </p>
+       <p> Forte </p>
+      </div>
+    </div>
+    <div class="parametro-senha">
+      <h4 class="parametro-senha-titulo">• Características da senha:</h4>
+      <div class="parametro-senha-checkbox">
+        <input name="maiuscula" type="checkbox" class="checkbox">
+        <label for="maiuscula"> Letras maiúsculas</label>
+      </div>
+
+      <div class="parametro-senha-checkbox">
+        <input name="minuscula" type="checkbox" class="checkbox">
+        <label for="minuscula"> Letras minúsculas</label>
+      </div>
+
+      <div class="parametro-senha-checkbox">
+        <input name="numeros" type="checkbox" class="checkbox">
+        <label for="numeros"> Números</label>
+      </div>
+
+      <div class="parametro-senha-checkbox">
+        <input name="simbolos" type="checkbox" class="checkbox">
+        <label for="simbolos"> Símbolos</label>
+      </div>
+
+      <div class="parametro-senha-checkbox">
+        <input name="emojis" type="checkbox" class="checkbox">
+        <label for="emojis"> Emojis</label>
+      </div>
+
+      <div class="parametro-senha-checkbox">
+        <input name="personagens" type="checkbox" class="checkbox">
+        <label for="personagens"> Personagens do Reino Cogumelo</label>
+      </div> 
+    </div>
+  </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
